@@ -1,0 +1,75 @@
+.login-box {
+  margin-top: 13%;
+  margin-left: 36%;
+  background-color: rgba(0, 0, 0, 0.3);
+  padding: 20px 40px;
+  border-radius: 5px;
+  width: 384px;
+  height: 390px;
+}
+.login-box h2 {
+  text-align: center;
+  margin-bottom: 30px;
+  text-transform: uppercase;
+}
+.input-box {
+  position: relative;
+  margin: 20px 0 40px;
+  width: 300px;
+}
+.input-box input {
+  background-color: transparent;
+  border: 0;
+  border-bottom: 2px #000000 solid;
+  width: 100%;
+  padding: 15px 0;
+  font-size: 18px;
+  color: #fff;
+}
+.input-box input:focus,
+.input-box input:valid {
+  outline: 0;
+  border-bottom-color: #fff;
+}
+
+.input-box label {
+  position: absolute;
+  top: 30px;
+  left: 0;
+}
+
+.input-box label span {
+  display: inline-block;
+  font-size: 17px;
+  min-width: 5px;
+  transition: 0.3s cubic-bezier(0.68, -0.55, 0.265, 1.55);
+}
+
+.input-box input:focus + label span,
+.input-box input:valid + label span {
+  color: #fff;
+  transform: translateY(-30px);
+}
+
+.login-btn {
+  display: flex;
+  justify-content: center;
+}
+.login-btn-style {
+  width: 100%;
+}
+
+.bottom-text {
+  margin-top: 15px;
+  display: flex;
+  gap: 8px;
+  font-size: 14px;
+}
+.register-link {
+  text-decoration: none;
+  color: #fff;
+}
+.register-link:hover {
+  color: #fff;
+  border-bottom: 2px #fff solid;
+}
